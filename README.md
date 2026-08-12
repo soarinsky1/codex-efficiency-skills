@@ -82,6 +82,10 @@ The [`benchmarks/`](benchmarks/) directory defines a reproducible comparison fra
 
 Version 0.1.0 publishes methodology only. It does not present local observations as universal benchmark results or equate raw tokens with cost.
 
+## Trigger behavior
+
+[`tests/trigger-cases.md`](tests/trigger-cases.md) documents positive, negative, high-risk, and combined matching cases for the two Skills. These cases define intended activation boundaries and help prevent efficiency guidance from overriding interactive, security-sensitive, release-critical, or scientific validation requirements.
+
 ## Limitations
 
 - Tool contracts and maximum wait behavior vary by Codex version and runtime.
